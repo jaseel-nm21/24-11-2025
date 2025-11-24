@@ -1,0 +1,1 @@
+"# s1-python-lab"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/jaseel-nm21/s1-python-lab.gitgit push -u origin main
