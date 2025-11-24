@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>MCA page</title>
+	</head>
+	<body>
+		<h1 id="top"><b><center><u>masters in computer application</u></center></b></h1>
+		<br><br>
+		
+		<h4>sem 1 mca subject</h4>
+		<ol>
+			<li>software engineering</li>
+			<li>data structures</li>
+		</ol>
+		
+		<h4>sem 1 mca lab</h4>
+		<ul>
+			<li>web programing</li>
+			<li>problem solving using python</li>
+		</ul>
+		
+		<h4>more about lab</h4>
+		<dl>
+			<dt>web programing</dt>
+				<dd>web programming is the process of creating and maintaining website and web applications</dd>
+			<dt>python</dt>
+				<dd>problem solving using python involves a structured approach to analyze a problem,design a solution</dd>
+		</dl>
+		
+		<h4> sem fees</h4>
+		
+		<table border="1px">
+			<tr>
+				<th>SEM 1</th>
+				<th>SEM 2</th>
+				<th>SEM 3</th>
+				<th>SEM 4</th>
+			</tr>
+			<tr>
+				<td>50k</td>
+				<td>25k</td>
+				<td>20k</td>
+				<td>20k</td>
+			</tr>
+		</table>
+		<center>
+		<img src="https://rcm.ac.in/wp-content/uploads/2025/03/DALL%C2%B7E-2025-03-01-13.27.34-A-modern-and-professional-blog-thumbnail-for-_What-is-MCA-Course_-A-Complete-Guide_.-The-design-includes-a-clean-tech-inspired-background-with-abstra.webp"
+		          height="500px" width="800px">
+		</img>
+		</center>
+		
+		<a href="#top"><h1>top</h1>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>table using css</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 30%;
+			margin:auto;
+			
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+		}
+		th {
+			background-color: purple;
+			color: white;
+		}
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		tr:hover {
+			background-color: #ddd;
+		}
+	</style>
+	</head>
+	<body>
+		<h2>TABLE</h2>
+		<table>
+			<thead>
+			<tr>
+				<th>RegNo</th>
+				<th>Name</th>
+				<th>Marks</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>1234</td>
+				<td>Nia</td>
+				<td>98</td>
+			</tr>
+			<tr>
+				<td>1235</td>
+				<td>Lee</td>
+				<td>95</td>
+			</tr>
+			<tr>
+				<td>1236</td>
+				<td>Zia</td>
+				<td>88</td>
+			</tr>
+			<tr>
+				<td>1237</td>
+				<td>Ria</td>
+				<td>78</td>
+			</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

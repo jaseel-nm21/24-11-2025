@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>simple html program</title>
+	</head>
+	<body>
+		
+		<h1><b><center><u>MES ENGG COLLEGE</u></center></b></h1>
+		<h2><center>kuttippuram</center></h2>
+		<br><br>
+		
+		<P><i>MES College of Engineering is a private engineering college based in Kuttippuram, Malappuram. It is Kerala's first self-financing engineering college
+		</i></p>
+		
+		<h3>programs</h3>
+		<h4>UG</h4>
+		
+		<ol>
+			<li>BCA</li>
+			<li>B.tech</li>
+			<li>BBA</li>
+		</ol>
+		<h4>PG</h4>
+		<ul>
+			<li>MCA</li>
+			<li>M.tech</li>
+			<li>MBA</li>
+		</ul>
+		
+		<h3>UG program and there sems and fees</h3>
+		<table border="1px">
+			<tr>
+				<th>BCA</th>
+				<th>B.tech</th>
+				<th>BBA</th>
+			</tr>
+			<tr>
+				<td>6 sem</td>
+				<td>8 sem</td>
+				<td>6 sem</td>
+			</tr>
+			<tr>
+				<td>18000 per sem</td>
+				<td>40000 per sem</td>
+				<td>14000 per sem</td>
+			</tr>
+		</table>
+		
+		<h3>PG programs and there sems and fees</h3>
+		<table border="1px">
+			<tr>
+				<th>MCA</th>
+				<th>M.tech</th>
+				<th>MBA</th>
+			</tr>
+			<tr>
+				<td>4 sem</td>
+				<td>4 sem</td>
+				<td>4 sem</td>
+			</tr>
+			<tr>
+				<td>25000 per sem</td>
+				<td>60000 per sem</td>
+				<td>20000 per sem</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<img src="https://mesce.ac.in/_next/static/images/DJI_0090_1-102c11ee3699d24ce896dac19526059d.jpg" height="500px" width="500px">
+		
+		
+	</body>
+</html>
+		
+		
+				
+			

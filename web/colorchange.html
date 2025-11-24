@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Change Background Color</title>
+<script>
+ // Array of colors to use
+var colors = ["lightblue", "lightgreen", "lightpink", "orange", "violet", "yellow"];
+var index = 0; // start position
+ function changeColor() {
+ // Set background color
+document.body.style.backgroundColor = colors[index];
+ // Move to the next color
+ index++;
+ // Reset index if it goes past the last color
+ if (index == colors.length) {
+ index = 0;
+ }
+ }
+</script>
+</head>
+<body style="text-align:center; margin-top:100px;">
+<h2>Click the button to change background color</h2>
+<button onclick="changeColor()" style="padding:10px 20px; font-size:18px;">
+ Change Color
+</button>
+</body>
+</html>

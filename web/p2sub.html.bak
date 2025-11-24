@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>2nd page of program 2</title>
+	</head>
+	<body>
+		<h1 id="top"><b><center><u>masters in computer application</u></center></b></h1>
+		<br><br>
+		
+		<h4>sem 1 mca subject</h4>
+		<ol>
+			<li>s/w engg</li>
+			<li>data structures and algorithms</li>
+		</ol>
+		
+		<h4>sem 1 mca lab</h4>
+		<ul>
+			<li>web programing</li>
+			<li>python</li>
+		</ul>
+		
+		<h4>more about lab</h4>
+		<dl>
+			<dt>web programing</dt>
+				<dd>developing web pages using html and css</dd>
+			<dt>python</dt>
+				<dd>problem solving using python</dd>
+		</dl>
+		
+		<h4> sem fees</h4>
+		
+		<table border="1px">
+			<tr>
+				<th>SEM 1</th>
+				<th>SEM 2</th>
+				<th>SEM 3</th>
+			</tr>
+			<tr>
+				<td>RS-50000</td>
+				<td>RS-25000</td>
+				<td>RS-25000</td>
+			</tr>
+		</table>
+		<center>
+		<img src="https://rcm.ac.in/wp-content/uploads/2025/03/DALL%C2%B7E-2025-03-01-13.27.34-A-modern-and-professional-blog-thumbnail-for-_What-is-MCA-Course_-A-Complete-Guide_.-The-design-includes-a-clean-tech-inspired-background-with-abstra.webp"
+		          height="500px" width="800px">
+		</img>
+		</center>
+		
+		<a href="top"><h1>top</h1>
+	</body>
+</html>

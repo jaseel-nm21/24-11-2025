@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Changing image and text</title>
+
+<style>
+img {
+    max-width: 500px;
+    border: 2px solid green;
+    border-radius: 100%;
+    padding: 5px;
+    height: 500px;
+}
+
+#p1 {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+}
+
+#h1 {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+}
+</style>
+
+<script>
+function one() {
+    document.getElementById("img").src =
+    "C:\Users\Admin\Documents\s1_jaseel\web\img2 (1).jpg";
+
+    document.getElementById("p1").innerHTML = "bluffing";
+    document.getElementById("p1").style.color = "violet";
+
+    document.getElementById("h1").innerHTML = "ONMOUSEOVER";
+    document.getElementById("h1").style.color = "green";
+
+    document.body.style.backgroundColor = "white";
+}
+
+function two() {
+    document.getElementById("img").src =
+    "C:\Users\Admin\Documents\s1_jaseel\web\img2 (2).jpg";
+
+    document.getElementById("h1").innerHTML = "ONMOUSEOUT";
+    document.getElementById("h1").style.color = "cyan";
+
+    document.getElementById("p1").innerHTML = "click";
+    document.getElementById("p1").style.color = "brown";
+
+    document.body.style.backgroundColor = "DBDBDB";
+}
+</script>
+
+</head>
+
+<body>
+<center>
+<h1 id="h1"></h1>
+
+<img src="hoverimg.png" id="img" onmouseover="one()" onmouseout="two()">
+
+<p id="p1"></p>
+</center>
+</body>
+</html>

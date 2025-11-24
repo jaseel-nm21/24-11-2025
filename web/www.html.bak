@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>css</title>
+		<style>
+			h1{
+				background-color:white;
+				}
+			#head2{
+				color:red;
+				font-size:50px;
+				text-align:center;
+				}
+			#p2{
+				color:FF4D79;
+				font-weight:bold;
+				}
+			table {
+				border-collapse: collapse;
+				width: 30%;
+				margin:auto;
+			
+			}
+			th, td {
+				border: 1px solid #ddd;
+				padding: 8px;
+				text-align: left;
+			}
+			th {
+				background-color: purple;
+				color: white;
+			}
+			tr:nth-child(even) {
+				background-color: #f2f2f2;
+			}
+			tr:hover {
+				background-color: #ddd;
+			}				
+		</style>
+		<link rel="stylesheet" type="text/css" href="simple.css">	
+	</head>
+	
+	<body style="background-color:DBE4FF">
+	<h1 style="text-align:center;color:010361 ;font-size:50px ;font-style:arial">Inline CSS</h1>
+	
+	<p style="color:1791B3 ;font-style:italic">Inline CSS in HTML refers to applying unique styles directly to a single HTML element using the style attribute within the element's opening tag. This method allows for immediate, element-specific styling without the need for external stylesheets or internal style tags. </P>
+	<br>
+	<br>
+	
+	<h1 id="head2">Internal CSS</h1>
+	<p id="p2">Internal CSS, also known as embedded CSS, is a method of styling HTML elements by placing CSS rules directly within the head section of an HTML document. This approach allows for the styling of a single HTML page, providing unique aesthetics to that specific page without affecting other pages on a website</P>
+	<br>
+	<h1 id="head3">External CSS</h1>
+	<p id="p3">External CSS involves placing CSS rules in a separate file with a .css extension and linking it to an HTML document. This method promotes code organization, reusability, and easier maintenance for web projects.</p>
+	<br>
+	<center>
+	<h1>Web Development Languages</h1>
+	</center>
+		<table>
+			<thead>
+			<tr>
+				<th>No</th>
+				<th>NAME</th>
+				<th>ABOUT</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>1</td>
+				<td>HTML</td>
+				<td>foundational language </td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>CSS</td>
+				<td>Style Sheets</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>JavaScript</td>
+				<td>dynamic language</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>PHP</td>
+				<td>server-side scripting</td>
+			</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

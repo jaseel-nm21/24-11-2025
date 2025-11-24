@@ -1,0 +1,10 @@
+<html>
+	<head>
+	<title>center html page</title>
+	</head>
+	
+	<body bgcolor="red">
+		<center><h1>top html page</h1>
+		</center>
+	</body>
+</html>

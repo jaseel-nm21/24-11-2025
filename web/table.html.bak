@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>table web page</title>
+	</head>
+	
+	<body>
+		<center>
+		<h2>A table to show rowspan and colspan</h2>
+		<br><br><br><br>
+
+		<table border="5px"  height="300px" width="700px">
+			<tr>
+				<th colspan="3">head of table</th>
+			</tr>
+			<tr>
+				<td rowspan="2">row2col1</td>
+				<td>row2col2</td>
+				<td>row2col3</td>
+			</tr>
+			<tr>
+				<td>row3col2</td>
+				<td>row3col3</td>
+		</table>
+		</center>
+	</body>
+</html>
+		
+		
+		

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Registration Form</title>
+    <style>
+        body {
+            background-color: #d4f8e8;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-box {
+            width: 350px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            margin: 80px auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #444;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        input:focus {
+            border-color: #3cb371;
+            outline: none;
+        }
+
+        .button-group {
+            text-align: center;
+        }
+
+        button {
+            width: 45%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button[type="submit"] {
+            background-color: #3cb371;
+            color: white;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2e8b57;
+        }
+
+        button[type="reset"] {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        button[type="reset"]:hover {
+            background-color: #ff4d4d;
+        }
+    </style>
+
+    <script>
+        function validate() {
+            var name = document.getElementById("name").value.trim();
+            var passwd = document.getElementById("password").value;
+            var phone = document.getElementById("number").value.trim();
+
+            if (name === "") {
+                alert("Name cannot be blank");
+                return false;
+            } 
+            else if (!isNaN(name)) {
+                alert("Name must contain only alphabets!");
+                return false;
+            } 
+            else if (passwd === "") {
+                alert("Enter a Password");
+                return false;
+            } 
+            else if (passwd.length < 8) {
+                alert("Password must be at least 8 characters long");
+                return false;
+            } 
+            else if (phone === "") {
+                alert("Enter your phone number!");
+                return false;
+            } 
+            else if (isNaN(phone)) {
+                alert("Invalid Phone Number — only digits allowed");
+                return false;
+            } 
+            else if (phone.length !== 10) {
+                alert("Not a Valid Phone Number (must be 10 digits)");
+                return false;
+            } 
+            else {
+                alert("✅ Thank You for Registration!");
+                return true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="form-box">
+        <h1>Registration Form</h1>
+        <form onsubmit="return validate()">
+            <label>Name:</label>
+            <input type="text" id="name" name="username" placeholder="Enter your name">
+
+            <label>Password:</label>
+            <input type="password" class="password" name="password" placeholder="Enter a password">
+			
+			<label>Re-Password:</label>
+			<input type="password" class="password" name="repassword" placeholder="Re-Enter your password">
+
+            <label>Mobile Number:</label>
+            <input type="text" id="number" name="number" maxlength="10" placeholder="Enter 10-digit number">
+
+            <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

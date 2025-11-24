@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>html page to show form tags</title>
+	</head>
+	
+	<body bgcolor="#8CFFC2">
+		<center>
+		<h1>Registration Form</h1>
+		</center>
+		<form>
+			<label>Name</label>
+			<input type="text" name="username" required></input>
+			<br><br>
+			
+			<label>E-mail</label>
+			<input type="text" name="mail" required></input>
+			<br><br>
+						
+			<label>Password</label>
+			<input type="password" name="password" required></input>
+			<br><br>
+			
+			<label>Mobile number</label>
+			<input type="text" name="number" value="+91" maxlength="13" pattern="[0-9,+]*"></input>
+			<br><br>
+			
+			<label>Address</label>
+			<textarea required></textarea>
+			<br><br>
+			<label>Gender</label>
+			<br>
+			<input type="radio" name="gender" required></input>
+			<label>male</label>
+			<input type="radio" name="gender"></input>
+			<label>female</label>
+			<input type="radio" name="gender"></input>
+			<label>other</label>
+			<br><br>
+			
+			<label>D.O.B</label>
+			<input type="date" name="dob" required></input>
+			<br><br>
+			
+						
+			<label>Nationaliy</label>
+			<select name="nationaliy" required>
+			<option value="indian">indian</option>
+			<option value="American">American</option>
+			<option value="French">French</option>
+			<option value="Japanese">Japanese</option>
+			<option value="Canadian">Canadian</option>
+			
+			</select>
+			<br><br>
+			
+			<fieldset>
+			<input type="checkbox" id="lang">
+			<legend>Language known</legend>
+			<label for="lang">English</label>
+			<br>
+			<input type="checkbox" id="lang">
+			<label for="lang">Malayalam</label>
+			<br>
+			<input type="checkbox" id="lang">
+			<label for="lang">Hindi</label>
+			</fieldset>
+			<br>
+			
+
+			
+			<br>
+			<button>submit</button>
+			<button>cancel</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>html page to show form tags</title>
+		<script>
+			function validate()
+			{
+				var name = document.getElementById("n").value;
+				var passwd = document.getElementById("p").value;
+				var phone = document.getElementById("num").value;
+				if(name === "")
+				{
+					alert('Name cannot be blank');
+					return false;
+				}
+				else if(!isNaN(name))
+				{
+					alert('Name required alphabets!');
+					return false;
+				}
+				else if(passwd == "")
+				{ 
+					alert('Enter a Password');
+					return false;
+				}
+
+				else if(passwd.length <8)
+				{ 				
+					alert('Password required atleast 8 characters');
+					return false;
+				}
+				else if(phone == "")
+				{
+					alert('Enter your phone number!');
+					return false;
+				}
+				else if(isNaN(phone))
+				{
+					alert('Invalid Phone Number');
+					return false;
+				}
+				else if(phone.length !=10)
+				{
+					alert('Not a Valid Phone Number (need 10 digits)');
+					return false;
+				}
+				else
+				{
+					alert('Thank You for Registration');
+					return true;
+				}
+			}
+		</script>
+	</head>
+	
+	<body bgcolor="#8CFFC2">
+		<center>
+		<h1>Registration Form</h1>
+		</center>
+		<form onsubmit="return validate()">
+			<label>Name</label>
+			<input type="text" name="username" id="n">
+			<br><br>
+			
+			<label>Password</label>
+			<input type="password" name="password" id="p">
+			<br><br>
+			
+			<label>Mobile number</label>
+			<input type="text" id="num" name="number" maxlength="10" placeholder="Enter 10-digit number">
+			<br><br>
+			
+			<br>
+			<button>submit</button>
+			<button>cancel</button>
+	<body>
+</html>
+	
